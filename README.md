@@ -5,3 +5,5 @@ insertion sort;
 2-)Küçük veri kümelerinde avantajlıdır.
 3-)Hızlıdır. 
 4-)Kararlı bir algoritmadır.
+Selection sort:
+Verinin hafızada sıralı tutulması için geliştirilen sıralama algoritmalarından (sorting algorithms) bir tanesidir. Basitçe her adımda dizideki en küçük sayının nerede olduğu bulunur. Bu sayı ile dizinin başındaki sayı yer değiştirilerek en küçük sayılar seçilerek başa atılmış olur.
