@@ -1,0 +1,15 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+1-)Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+  [16,21,11]           [8,12,22]              // ilk önce diziyi ortadan ikiye böleriz.
+  [16,21] [11]         [8,12] [22]            // daha sonra 2'ye böldüğümüz sayıyı tekrar 2 parçaya böleriz
+  [16] [21] [11]       [8] [12] [22]          // en son hepsini tek tek yazıcaz yanda olduğu gibi son bölme işlemi tamamlandı
+  
+  [16,21] [11]         [8,12] [22]            // artık birleştirme işlemi yapıyoruz.Birleştirirken de 2'li birleştiriyoruz
+  [11,16,21]           [8,12,22]              // birleştirmr işlemleri yapılırken küçükten büyüğe yazılır.
+            [8,11,12,16,21,22]                //son adım en başta ikiye böldüğümüz dizileri birleştirdik.
+  
+  
+
+2-)Big-O gösterimini yazınız.
+   O(nlog(n))
